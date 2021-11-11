@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 
 
-mongoose.connect("mongodb+srv://admin-ambuj:Ambuj%40658@cluster0.ycqfw.mongodb.net/todolistDB?retryWrites=true&w=majority");
+mongoose.connect("mongoDB_server-url");
 const itemSchema = new mongoose.Schema({
   name: String
 });
